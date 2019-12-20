@@ -1,0 +1,1878 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="Cmenu.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="Cmenu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="Cmenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>555, 24</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Cmenu.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Cmenu.Text" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="&gt;&gt;Cmenu.Name" xml:space="preserve">
+    <value>Cmenu</value>
+  </data>
+  <data name="&gt;&gt;Cmenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Cmenu.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Cmenu.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Cmenu_File.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 20</value>
+  </data>
+  <data name="Cmenu_File.Text" xml:space="preserve">
+    <value>ファイル</value>
+  </data>
+  <data name="Cmenu_File_Exit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 22</value>
+  </data>
+  <data name="Cmenu_File_Exit.Text" xml:space="preserve">
+    <value>終了</value>
+  </data>
+  <data name="Cmenu_COM.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 20</value>
+  </data>
+  <data name="Cmenu_COM.Text" xml:space="preserve">
+    <value>シリアル通信</value>
+  </data>
+  <data name="Cmenu_COM_reScan.Size" type="System.Drawing.Size, System.Drawing">
+    <value>169, 22</value>
+  </data>
+  <data name="Cmenu_COM_reScan.Text" xml:space="preserve">
+    <value>COMポートを列挙</value>
+  </data>
+  <metadata name="Cstatus.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 498</value>
+  </metadata>
+  <data name="Cstatus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 330</value>
+  </data>
+  <data name="Cstatus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>555, 22</value>
+  </data>
+  <data name="Cstatus.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="Cstatus.Text" xml:space="preserve">
+    <value>statusStrip1</value>
+  </data>
+  <data name="&gt;&gt;Cstatus.Name" xml:space="preserve">
+    <value>Cstatus</value>
+  </data>
+  <data name="&gt;&gt;Cstatus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.StatusStrip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Cstatus.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Cstatus.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="Cstatus_lblConnect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>16, 17</value>
+  </data>
+  <data name="Cstatus_lblCOM.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 17</value>
+  </data>
+  <data name="Cstatus_lblCOM.Text" xml:space="preserve">
+    <value>未接続です</value>
+  </data>
+  <metadata name="Ctool_Main.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>211, 17</value>
+  </metadata>
+  <data name="Ctool_Main.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 24</value>
+  </data>
+  <data name="Ctool_Main.Size" type="System.Drawing.Size, System.Drawing">
+    <value>555, 25</value>
+  </data>
+  <data name="Ctool_Main.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="Ctool_Main.Text" xml:space="preserve">
+    <value>toolStrip1</value>
+  </data>
+  <data name="&gt;&gt;Ctool_Main.Name" xml:space="preserve">
+    <value>Ctool_Main</value>
+  </data>
+  <data name="&gt;&gt;Ctool_Main.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStrip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Ctool_Main.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Ctool_Main.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="Ctool_cbxCOM.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 25</value>
+  </data>
+  <data name="Ctool_btnConnect.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAMjSURBVDhPbZNrSBRRFMcvCIoQBEH0wcgKyVoIjIpe1pZB
+        WJE9cHpjpLmlUquiVOvWlOuCGpMb2a5rmrnjlM5aPsZHW1vpsm1mDwo2ioI+9aX6slDZY2fuv7s2aEU/
+        GO7Mved37jl3Zsi/0GBTqjbsFnDP9SQ8zKthP6/CV/NEG7ALtNuaqof9HzrUWBq55RrDo3bgRQ+7FOB5
+        N/BABIYuIdJZPkY7zKV6+CQIy/HakHsQI23As04W7AIGqoFBO9B9Crh5HOg5Ddw7D3RZoDXuHYTMxes6
+        IdpdpwOPmMwShH28SvttGbSjJFFfJrF76jmUEeZzVHSyZGIBNMcm4ffi0MWF4fusz5FrCA8yudOWDJmf
+        onnLq9TrxSFVLAhpntwq1HNTaNOO5DBvUCGXIjZSe7qBaHcEB4JXWHkO0J6KDKpYkqLe4nfotwHtxcC1
+        QjaWIOrc9o4Km5PouXUZuLgFaNoPrSpNIFHF/hohVj7rLVaqJhV5oZwFmnNk6t5jpJe2GeHYKEM0Qatd
+        46XC8kRULgbaChC1pL4kH7oKfyDETllmu8lcXORy7hjEI6DubOPo6GhWIBAw0Jq1xuOeFchvWTQeg4r5
+        gHQUsMyNkA9eliDYzA4mH1TITkTDLnx3ZX2EfCw9GAxGe3t7f9L67Exj8yLtrLIXuxqYbEkZb+1LWfJn
+        Em3Jf4sb5Yg07h4Dz8XTuk1rYodrllbD3LYCBZ6lyOXTqLWLg/z4Asq8W5FZNwO0egmi1jkvCXXtMaOB
+        M8HNTR1/LYxQKDStSFyG7mdO3HhaPy62P3bA4S9D68NaHJE2wMAnqKp19k5d+Ru/3+/MY/3G5PO3zai5
+        VQT7gAlnlIOo7D+MhoAN+6+mY3oh+aErk/h8vjRFUbR9lxegY9QBaURAa6gWVx5UsySFcAUqYZIyMcdK
+        Xs0sIRMf2wRM9suy/G07P5caLyRpxrrp2ip+Ks1pWQnn8Bnkihswy0pepBwlCboySV9f32ZJkt57PB6r
+        PjXBPFv81wOt65FyIuGNgSeT/8GfsJ0bRVHM0h//Ivkk+TSrIg55prwtHMfF/Z4l5BduzwaxGpitHAAA
+        AABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="Ctool_btnConnect.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="Ctool_btnConnect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="Ctool_btnConnect.Text" xml:space="preserve">
+    <value>COMポート接続</value>
+  </data>
+  <data name="Ctool_btnDisConnect.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="Ctool_btnDisConnect.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAMaSURBVDhPbZFtSFNRHMZvLQVJkPpSYSFGZAwMoS9+kFbD
+        6MWyCIcVIWQWapQvZNaybqVGGrdGlmumJbvO5t0sda65mrrcGmX2BiuCSpBEsKAW1bR273k6Vy+Y0Q8O
+        595znuf/dph/If7GJOmhiUOfcSj4kBWDHlaEu2ZIulfNkY6KJEX2f4i3oTTUYwzjiRV41UmXA3jZATzi
+        Ae81hOxlYdJWVKrIZ0BQiJa8JhcetwDP7VRsBO5dAFzVQMcp4E450Hka6LsE3NVDatjjgqCLVuwMI/XW
+        G/CEmmmAoJsVibNSS9pKYpRrRv4m5jxtkM0RYafB+AJIhi3c9KW3LjnYT/t83Iqgi5rtlQkQ2FjJVlYl
+        3i4OiHxBQDLnVuGqLpY07kwIsmoRQinknVSnqRnpAWeA/yYtzwDSeVJLHPr4iK14GM5KwFoMtBbSvQSR
+        +h3DhMuIJxfXa1G3DWjcC6kqhWMijuq3CNDyaW9yqZLlkA2Os0BTjkBMuzXk2g4NDJsF8Ach1a61ES41
+        BufWAC0FiOiTXjPjdwt/IUCnLNBsgk4VupEbBp8PYsrSDA4OZg4MDKhJzToN6jIQYtVhWYOTqwDLYUC/
+        PMSM22gAfxMdzAEQLisG17Mxacz8BOFImt/vj3R1df0mV7M2/a5cPQI2GaRkaQz0K6Za+3E04TsTuXXg
+        HdrLEGrYFQariyaXt6yVh+vz+Xi8dAPv78NqtZp92cuOe7bGjbHaecSrjhaH85chUpH4miHG3UW4rjsI
+        ky5u6lkogUBgYXd393eWZYm82o/t+9ZfmPprwsmBvOnBT2sp+jXJ0nPd/JuKZTYej6fe4XCI+PwCGH8K
+        5/ZFCFMzrtDply8Azific+06ONerhhXLDG63O4WaJTmz2Wz2m0wmv0cbBfLsDv7mK7sYcjuKbQZq9giC
+        MNHc3NyoHDFOTezPH037AWqaPMbgC10j+Sr0bFCNKpJpaN8ZFotllGauUI6m8GUvOdOvWSmNlSfi04ko
+        fMibg171PNGVPlevSKahmRt4ns9Ufmchv4JjY9S4XLY7XfVx2swwfwC9XR+pmDL9ywAAAABJRU5ErkJg
+        gg==
+</value>
+  </data>
+  <data name="Ctool_btnDisConnect.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="Ctool_btnDisConnect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="Ctool_btnDisConnect.Text" xml:space="preserve">
+    <value>COMポート切断</value>
+  </data>
+  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 25</value>
+  </data>
+  <data name="Ctool_btnPreMeasure.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="Ctool_btnPreMeasure.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALoSURBVDhPrVP9S5pRFH5hf8Bg/8UqIhgSEWQyKOiLgkgo
+        eRXT6WulFBQ1JI3llKRaGn7k1GFLKCiCNcSoUdGyIMTa7NWt2MdP/TJiH2w0aM/uuWv7C3bh8p577jnP
+        fc5zziv8lxUMBl3T09OZiYmJnNvtPnI4HCfDw8On/f39H/r6+j4ODQ2dejyeR9fhQmdn55329vZb/BAO
+        h2+GQiEcHBxgf38fe3t72N3dRcTvwOX7p/j6QgWXXYLf70Nvb6+o0Wg+sw22f3V1dSkE9sLblZUVHB8f
+        Y3V1FfPz84jH40ilUiDgWCyGra0tLC0tYWBgAJIkwWKxwGQyoa2trSAwVGxsbCCZTPLv2dkZCoUC8vk8
+        Dg8POeD4+DhYmVhbW0M0GsXk5CRYSaitrYVAiJS8vr6OVOYNpLnXEAN5aNjuDh4h8ewlAoEAmB4gpsTK
+        bDZjbGwMNTU1EIhKJBKBLMuwsGR9+AT3IjIMj2XomN0dzGF5eRmiKGJxcRE+nw9arRZ2ux3V1dUQjEYj
+        ZmdnkcvlIAZZcrQIS7wIKVaEMVKANnSChYUFdHR08HK8Xi/UajUGBwdRVVUFQa/XY2pqCplMhgMY2cuU
+        bHlShClagH5O5gxbW1u5oC6XCy0tLbBaraisrISg0+nAeo90Og1DIAdt4AhmVxIP3F6ecN/5kCc1NzfD
+        6XRyH9VP2ikUCghU2+joKKfmTzyH2urBzMwMzs/PeUe2t7d5vazdXCfy0ZxQjEqlgkD12Gw23leDwcBr
+        y756xV9oamoCaUTCjYyMcLuxsRFsgDgI5Qn19fW2kpKS74zOFalKNAmAeqxUKrG5uYlsNoudnR3eDWpd
+        WVnZFQGw2Cs+zn9XeXm5xJhcEACbsjSj+LOuro5svskmH90RAMVep/5ZpaWlt5lYMhP1IpFIfKLBoQmk
+        IWI/F7fJR3cUQ7HXqf/WDUa7oqGh4R3T41tPT88PNveXbAZEptVddv5CPrqjGKVSWfEb9B40Poi4VqAA
+        AAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="Ctool_btnPreMeasure.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="Ctool_btnPreMeasure.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="Ctool_btnPreMeasure.Text" xml:space="preserve">
+    <value>測定準備</value>
+  </data>
+  <data name="Ctool_btnMeasure.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="Ctool_btnMeasure.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALoSURBVDhPrZJrSJNhFMcfHF0WiFmIzGsa2tyybc3cMnWD
+        2Sg0x3Q6L6GouHnBzMuEUnt1lpeBpZWXkDST4Y3S0syumqaFUl/62twU/BKmU1Dn1t7Tu9eXCPpS0A8O
+        POd/zv8Pz8OD/gshZbOQ2mZQUO2/4wiIrJxRyW4beimJZDUpRbeWmGhaUyZ/WU1MTqPkPwnRzICgbpEv
+        apiwCxuX6A7NfCF2ejkmxrohi5tbiY03GOXxNrM8fskcF+dPmn4npPQ9oAGgHc8z7XAw09hmpLiuUyzB
+        N6KiwqkVZJZE+6+LotdXpdKt6DvGKkrehV8yDUelNd6eZYs6dcyQdY3D2d4KFbZQY5KT10yNguoJu6/W
+        aAuvNe5EYg04NSKGJVNAHVEL6zS+yBPtUC2JT4Gpzzd9wRZYYuiycAUBW/xQ0KfWt1FjIqB4kgywunno
+        jQwvGyd2aPtAhvE2SgDawUzjuGvqgiX3YZg1u4sHin4h3cIKntxiscyk2QG36C1UcOWcXmdX3ObsWouS
+        TNeR0gROogk7TanD9ygWlMldgZvVIymgbGeCotGLvsxgWCk7EVD4BnC0V2Zzon2lJFSoj4ACTIirMT6e
+        cZ8DFUMJMDDfDKWDMhDdcrev+DJGqVWEOJdegQXRFMSruFMSyu8RwPDnVnj06S5p7JtvgqbXpdD9QQc5
+        eimcqttn59cjF3L5RMEL6Dh8TEw2BOJaXmsWcV+H+ebLQmgYz4cbYyqoGskA7TM1tE/VwMUH4RCAoR+k
+        ITj/OURcZjKEpex7Ak3wEk/D/p7aEQT9c02g/9gI3bM66JypJ0LyoG1KCyr9OfCpRN88riLubkDeGHDV
+        QTJOLlPKlAvOCou86HLMDz+PeeISzA0/g7ngaV1h0PquCjJ7pOBZ5rTuraGHkGYH7NxRYOeMACvnKVFP
+        gKUaJmoIghyV/RiYRLG1+yG9WwJHrhyCQFUzMLMGf/2dv8KvGG36lNPAvRz5URIBQj8BUFlSl5fX3wEA
+        AAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="Ctool_btnMeasure.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="Ctool_btnMeasure.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="Ctool_btnMeasure.Text" xml:space="preserve">
+    <value>測定開始</value>
+  </data>
+  <data name="Ctool_btnMeasureStop.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="Ctool_btnMeasureStop.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALLSURBVDhPY6AKMCk79j96+t0QKJd0ADLArvZomv+ku8uh
+        QmDwLiKq631Y2IP34ZGX34VFxkGFMYFJ6dH/5u0Pje079/+16H3ECRL74Ot3+KmPz69P/kGn3vgF370f
+        GPz7Q2Dwow9BQUpgTcjApOTIf4ZV/5l1sh781K9/sO2rnUP7Zgfnf59cXGygShg+OHsrfbT3/vjOze2b
+        9+T7DVBhCDAuPvxf2a1ZVrrsYVe6z/pf7/X1v38zs5gKlQYDo7oHveaN+//KN93/bdN2/6dd/bx/UCmg
+        ZPGh/1Amwyoty38PDe1/QrlgIJf7YIV8/L3fasV35/8wMFf9Zmz2f2l0x3SoNNCAogNgA36JSi29Lynz
+        W99v/XeuxPuTGEL/Mwsk3d8hGH3vh0jinTqwYiD4oaV74JuW1gcol4HBoHDf/xqDQP09vIL/fvMKtjFE
+        PGhhCH/wn8l+/1/m8Pn/WEPuhUOVwsFTSclfUCbQgPy9//8xsPn/ZmK+AxWCAP875V6LHKZ7L7I501Wl
+        /XRHoMDreieWfzsdmR9dM+S9ClXFwKCft/v/DwbmEGCoiEOFGDymW3l5TLV84TrD9EFvqebl/fYWf79v
+        7f3/79qO/19XFP0/na31Z7czSy5YsV7uzv+zhdUdwBwgcGgznGbfofvRoUt/kf0ULZ7tLsx3vwE1/5/k
+        +/9/ueD//22K/193Ofzf6sh8D6xBN3v7f9sCDUmLEu2Z5qW6jwxLtd9alOpkgCWBAOTsf2fX/UcG7+sl
+        /oPEwQp0s7b9N0jX9NfP1HDTCDR3tSiUAadGQW03WRC904X58Ze5yf//AzX9KGP4/w6IH2Yw/9/hyvwE
+        JM+gnbnlv3bG5v9aGZuAeON/rbQNQLz+vyYIp677XxaX8v9Yivr/Z+WK/19Vsv6/m8L4f7cv2//tLkxV
+        YAOIAYfDZSt2OjPfB8cC0EUQzQwMALsbQ6wLNJInAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="Ctool_btnMeasureStop.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="Ctool_btnMeasureStop.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="Ctool_btnMeasureStop.Text" xml:space="preserve">
+    <value>測定停止</value>
+  </data>
+  <data name="Ctool_cbxMonitor.Items" xml:space="preserve">
+    <value>測定データ保存</value>
+  </data>
+  <data name="Ctool_cbxMonitor.Items1" xml:space="preserve">
+    <value>モニタリング</value>
+  </data>
+  <data name="Ctool_cbxMonitor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 25</value>
+  </data>
+  <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 25</value>
+  </data>
+  <data name="Ctool_cbxFreq.Items" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Ctool_cbxFreq.Items1" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="Ctool_cbxFreq.Items2" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="Ctool_cbxFreq.Items3" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="Ctool_cbxFreq.Items4" xml:space="preserve">
+    <value>50</value>
+  </data>
+  <data name="Ctool_cbxFreq.Items5" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="Ctool_cbxFreq.Items6" xml:space="preserve">
+    <value>200</value>
+  </data>
+  <data name="Ctool_cbxFreq.Items7" xml:space="preserve">
+    <value>500</value>
+  </data>
+  <data name="Ctool_cbxFreq.Items8" xml:space="preserve">
+    <value>1000</value>
+  </data>
+  <data name="Ctool_cbxFreq.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 25</value>
+  </data>
+  <metadata name="SerialPort.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>313, 17</value>
+  </metadata>
+  <data name="&gt;&gt;tabPage1.Name" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;tabPage1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPage1.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;tabPage1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tabPage2.Name" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;tabPage2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPage2.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;tabPage2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;tabPage3.Name" xml:space="preserve">
+    <value>tabPage3</value>
+  </data>
+  <data name="&gt;&gt;tabPage3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPage3.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;tabPage3.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tabControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 56</value>
+  </data>
+  <data name="tabControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>299, 264</value>
+  </data>
+  <data name="tabControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.Name" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;Cbtn_Sensor_GetStatus.Name" xml:space="preserve">
+    <value>Cbtn_Sensor_GetStatus</value>
+  </data>
+  <data name="&gt;&gt;Cbtn_Sensor_GetStatus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Cbtn_Sensor_GetStatus.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;Cbtn_Sensor_GetStatus.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label6.Name" xml:space="preserve">
+    <value>label6</value>
+  </data>
+  <data name="&gt;&gt;label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Cnud_dstID.Name" xml:space="preserve">
+    <value>Cnud_dstID</value>
+  </data>
+  <data name="&gt;&gt;Cnud_dstID.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Cnud_dstID.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;Cnud_dstID.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;Ctree.Name" xml:space="preserve">
+    <value>Ctree</value>
+  </data>
+  <data name="&gt;&gt;Ctree.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TreeView, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Ctree.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;Ctree.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="tabPage1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tabPage1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabPage1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>291, 238</value>
+  </data>
+  <data name="tabPage1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tabPage1.Text" xml:space="preserve">
+    <value>接続機器</value>
+  </data>
+  <data name="&gt;&gt;tabPage1.Name" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;tabPage1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPage1.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;tabPage1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Cbtn_Sensor_GetStatus.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="Cbtn_Sensor_GetStatus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>210, 212</value>
+  </data>
+  <data name="Cbtn_Sensor_GetStatus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="Cbtn_Sensor_GetStatus.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="Cbtn_Sensor_GetStatus.Text" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="&gt;&gt;Cbtn_Sensor_GetStatus.Name" xml:space="preserve">
+    <value>Cbtn_Sensor_GetStatus</value>
+  </data>
+  <data name="&gt;&gt;Cbtn_Sensor_GetStatus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Cbtn_Sensor_GetStatus.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;Cbtn_Sensor_GetStatus.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 216</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 13</value>
+  </data>
+  <data name="label6.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>対象ID</value>
+  </data>
+  <data name="&gt;&gt;label6.Name" xml:space="preserve">
+    <value>label6</value>
+  </data>
+  <data name="&gt;&gt;label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Cnud_dstID.Location" type="System.Drawing.Point, System.Drawing">
+    <value>51, 210</value>
+  </data>
+  <data name="Cnud_dstID.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 20</value>
+  </data>
+  <data name="Cnud_dstID.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Cnud_dstID.Name" xml:space="preserve">
+    <value>Cnud_dstID</value>
+  </data>
+  <data name="&gt;&gt;Cnud_dstID.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Cnud_dstID.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;Cnud_dstID.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Ctree.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="Ctree.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="Ctree.Nodes" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAB1TeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5UcmVlTm9kZQoAAAAEVGV4dAtUb29sVGlwVGV4dAROYW1lCUlzQ2hlY2tl
+        ZApJbWFnZUluZGV4CEltYWdlS2V5ElNlbGVjdGVkSW1hZ2VJbmRleBBTZWxlY3RlZEltYWdlS2V5CkNo
+        aWxkQ291bnQJY2hpbGRyZW4wAQEBAAABAAEABAEICAgdU3lzdGVtLldpbmRvd3MuRm9ybXMuVHJlZU5v
+        ZGUCAAAAAgAAAAYDAAAALjnou7jjg6/jgqTjg6Tjg6zjgrnjg6Ljg7zjgrfjg6fjg7Pjgrvjg7PjgrXj
+        g7wGBAAAAAAGBQAAAArjg47jg7zjg4kwAP////8JBAAAAP////8JBAAAAAEAAAAJBwAAAAUHAAAAHVN5
+        c3RlbS5XaW5kb3dzLkZvcm1zLlRyZWVOb2RlCQAAAARUZXh0C1Rvb2xUaXBUZXh0BE5hbWUJSXNDaGVj
+        a2VkCkltYWdlSW5kZXgISW1hZ2VLZXkSU2VsZWN0ZWRJbWFnZUluZGV4EFNlbGVjdGVkSW1hZ2VLZXkK
+        Q2hpbGRDb3VudAEBAQAAAQABAAEICAgCAAAABggAAAAFSUQwMDEJBAAAAAYKAAAACuODjuODvOODiTEA
+        /////wkEAAAA/////wkEAAAAAAAAAAs=
+</value>
+  </data>
+  <data name="Ctree.Size" type="System.Drawing.Size, System.Drawing">
+    <value>285, 202</value>
+  </data>
+  <data name="Ctree.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Ctree.Name" xml:space="preserve">
+    <value>Ctree</value>
+  </data>
+  <data name="&gt;&gt;Ctree.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TreeView, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Ctree.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;Ctree.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;Cnud_Sensor_TimeSec.Name" xml:space="preserve">
+    <value>Cnud_Sensor_TimeSec</value>
+  </data>
+  <data name="&gt;&gt;Cnud_Sensor_TimeSec.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Cnud_Sensor_TimeSec.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;Cnud_Sensor_TimeSec.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Cnud_Sensor_TimeMin.Name" xml:space="preserve">
+    <value>Cnud_Sensor_TimeMin</value>
+  </data>
+  <data name="&gt;&gt;Cnud_Sensor_TimeMin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Cnud_Sensor_TimeMin.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;Cnud_Sensor_TimeMin.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Cnud_Sensor_TimeHour.Name" xml:space="preserve">
+    <value>Cnud_Sensor_TimeHour</value>
+  </data>
+  <data name="&gt;&gt;Cnud_Sensor_TimeHour.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Cnud_Sensor_TimeHour.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;Cnud_Sensor_TimeHour.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;Cbtn_SetDev_WiFreq.Name" xml:space="preserve">
+    <value>Cbtn_SetDev_WiFreq</value>
+  </data>
+  <data name="&gt;&gt;Cbtn_SetDev_WiFreq.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Cbtn_SetDev_WiFreq.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;Cbtn_SetDev_WiFreq.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;bCbtn_SetDev_MagGain.Name" xml:space="preserve">
+    <value>bCbtn_SetDev_MagGain</value>
+  </data>
+  <data name="&gt;&gt;bCbtn_SetDev_MagGain.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bCbtn_SetDev_MagGain.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;bCbtn_SetDev_MagGain.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;Cbtn_SetDev_MeasTime.Name" xml:space="preserve">
+    <value>Cbtn_SetDev_MeasTime</value>
+  </data>
+  <data name="&gt;&gt;Cbtn_SetDev_MeasTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Cbtn_SetDev_MeasTime.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;Cbtn_SetDev_MeasTime.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;Cbtn_SetDev_SampFreq.Name" xml:space="preserve">
+    <value>Cbtn_SetDev_SampFreq</value>
+  </data>
+  <data name="&gt;&gt;Cbtn_SetDev_SampFreq.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Cbtn_SetDev_SampFreq.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;Cbtn_SetDev_SampFreq.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;Cbtn_SetDev_ID.Name" xml:space="preserve">
+    <value>Cbtn_SetDev_ID</value>
+  </data>
+  <data name="&gt;&gt;Cbtn_SetDev_ID.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Cbtn_SetDev_ID.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;Cbtn_SetDev_ID.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;Cnud_Sensor_ID.Name" xml:space="preserve">
+    <value>Cnud_Sensor_ID</value>
+  </data>
+  <data name="&gt;&gt;Cnud_Sensor_ID.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Cnud_Sensor_ID.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;Cnud_Sensor_ID.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;label5.Name" xml:space="preserve">
+    <value>label5</value>
+  </data>
+  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;Ccbx_Sensor_MagGain.Name" xml:space="preserve">
+    <value>Ccbx_Sensor_MagGain</value>
+  </data>
+  <data name="&gt;&gt;Ccbx_Sensor_MagGain.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Ccbx_Sensor_MagGain.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;Ccbx_Sensor_MagGain.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;Ccbx_Sensor_SampFreq.Name" xml:space="preserve">
+    <value>Ccbx_Sensor_SampFreq</value>
+  </data>
+  <data name="&gt;&gt;Ccbx_Sensor_SampFreq.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Ccbx_Sensor_SampFreq.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;Ccbx_Sensor_SampFreq.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;Ccbx_Sensor_WiFreq.Name" xml:space="preserve">
+    <value>Ccbx_Sensor_WiFreq</value>
+  </data>
+  <data name="&gt;&gt;Ccbx_Sensor_WiFreq.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Ccbx_Sensor_WiFreq.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;Ccbx_Sensor_WiFreq.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="tabPage2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tabPage2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabPage2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>291, 238</value>
+  </data>
+  <data name="tabPage2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tabPage2.Text" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="&gt;&gt;tabPage2.Name" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;tabPage2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPage2.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;tabPage2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Cnud_Sensor_TimeSec.Location" type="System.Drawing.Point, System.Drawing">
+    <value>149, 119</value>
+  </data>
+  <data name="Cnud_Sensor_TimeSec.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 20</value>
+  </data>
+  <data name="Cnud_Sensor_TimeSec.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="Cnud_Sensor_TimeSec.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;Cnud_Sensor_TimeSec.Name" xml:space="preserve">
+    <value>Cnud_Sensor_TimeSec</value>
+  </data>
+  <data name="&gt;&gt;Cnud_Sensor_TimeSec.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Cnud_Sensor_TimeSec.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;Cnud_Sensor_TimeSec.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Cnud_Sensor_TimeMin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>79, 119</value>
+  </data>
+  <data name="Cnud_Sensor_TimeMin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 20</value>
+  </data>
+  <data name="Cnud_Sensor_TimeMin.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="Cnud_Sensor_TimeMin.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;Cnud_Sensor_TimeMin.Name" xml:space="preserve">
+    <value>Cnud_Sensor_TimeMin</value>
+  </data>
+  <data name="&gt;&gt;Cnud_Sensor_TimeMin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Cnud_Sensor_TimeMin.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;Cnud_Sensor_TimeMin.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Cnud_Sensor_TimeHour.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 119</value>
+  </data>
+  <data name="Cnud_Sensor_TimeHour.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 20</value>
+  </data>
+  <data name="Cnud_Sensor_TimeHour.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="Cnud_Sensor_TimeHour.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;Cnud_Sensor_TimeHour.Name" xml:space="preserve">
+    <value>Cnud_Sensor_TimeHour</value>
+  </data>
+  <data name="&gt;&gt;Cnud_Sensor_TimeHour.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Cnud_Sensor_TimeHour.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;Cnud_Sensor_TimeHour.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Cbtn_SetDev_WiFreq.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="Cbtn_SetDev_WiFreq.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Cbtn_SetDev_WiFreq.Location" type="System.Drawing.Point, System.Drawing">
+    <value>220, 208</value>
+  </data>
+  <data name="Cbtn_SetDev_WiFreq.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 23</value>
+  </data>
+  <data name="Cbtn_SetDev_WiFreq.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="Cbtn_SetDev_WiFreq.Text" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="&gt;&gt;Cbtn_SetDev_WiFreq.Name" xml:space="preserve">
+    <value>Cbtn_SetDev_WiFreq</value>
+  </data>
+  <data name="&gt;&gt;Cbtn_SetDev_WiFreq.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Cbtn_SetDev_WiFreq.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;Cbtn_SetDev_WiFreq.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="bCbtn_SetDev_MagGain.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="bCbtn_SetDev_MagGain.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="bCbtn_SetDev_MagGain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>220, 165</value>
+  </data>
+  <data name="bCbtn_SetDev_MagGain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 23</value>
+  </data>
+  <data name="bCbtn_SetDev_MagGain.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="bCbtn_SetDev_MagGain.Text" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="&gt;&gt;bCbtn_SetDev_MagGain.Name" xml:space="preserve">
+    <value>bCbtn_SetDev_MagGain</value>
+  </data>
+  <data name="&gt;&gt;bCbtn_SetDev_MagGain.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bCbtn_SetDev_MagGain.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;bCbtn_SetDev_MagGain.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="Cbtn_SetDev_MeasTime.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="Cbtn_SetDev_MeasTime.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Cbtn_SetDev_MeasTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>220, 119</value>
+  </data>
+  <data name="Cbtn_SetDev_MeasTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 23</value>
+  </data>
+  <data name="Cbtn_SetDev_MeasTime.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="Cbtn_SetDev_MeasTime.Text" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="&gt;&gt;Cbtn_SetDev_MeasTime.Name" xml:space="preserve">
+    <value>Cbtn_SetDev_MeasTime</value>
+  </data>
+  <data name="&gt;&gt;Cbtn_SetDev_MeasTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Cbtn_SetDev_MeasTime.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;Cbtn_SetDev_MeasTime.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="Cbtn_SetDev_SampFreq.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="Cbtn_SetDev_SampFreq.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Cbtn_SetDev_SampFreq.Location" type="System.Drawing.Point, System.Drawing">
+    <value>220, 73</value>
+  </data>
+  <data name="Cbtn_SetDev_SampFreq.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 23</value>
+  </data>
+  <data name="Cbtn_SetDev_SampFreq.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="Cbtn_SetDev_SampFreq.Text" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="&gt;&gt;Cbtn_SetDev_SampFreq.Name" xml:space="preserve">
+    <value>Cbtn_SetDev_SampFreq</value>
+  </data>
+  <data name="&gt;&gt;Cbtn_SetDev_SampFreq.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Cbtn_SetDev_SampFreq.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;Cbtn_SetDev_SampFreq.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="Cbtn_SetDev_ID.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="Cbtn_SetDev_ID.Location" type="System.Drawing.Point, System.Drawing">
+    <value>220, 26</value>
+  </data>
+  <data name="Cbtn_SetDev_ID.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 23</value>
+  </data>
+  <data name="Cbtn_SetDev_ID.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="Cbtn_SetDev_ID.Text" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="&gt;&gt;Cbtn_SetDev_ID.Name" xml:space="preserve">
+    <value>Cbtn_SetDev_ID</value>
+  </data>
+  <data name="&gt;&gt;Cbtn_SetDev_ID.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Cbtn_SetDev_ID.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;Cbtn_SetDev_ID.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Cnud_Sensor_ID.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 28</value>
+  </data>
+  <data name="Cnud_Sensor_ID.Size" type="System.Drawing.Size, System.Drawing">
+    <value>206, 20</value>
+  </data>
+  <data name="Cnud_Sensor_ID.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;Cnud_Sensor_ID.Name" xml:space="preserve">
+    <value>Cnud_Sensor_ID</value>
+  </data>
+  <data name="&gt;&gt;Cnud_Sensor_ID.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Cnud_Sensor_ID.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;Cnud_Sensor_ID.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 194</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 13</value>
+  </data>
+  <data name="label5.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>無線周波数</value>
+  </data>
+  <data name="&gt;&gt;label5.Name" xml:space="preserve">
+    <value>label5</value>
+  </data>
+  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="Ccbx_Sensor_MagGain.Items" xml:space="preserve">
+    <value>±0.7Ga</value>
+  </data>
+  <data name="Ccbx_Sensor_MagGain.Items1" xml:space="preserve">
+    <value>±1.0Ga</value>
+  </data>
+  <data name="Ccbx_Sensor_MagGain.Items2" xml:space="preserve">
+    <value>±1.5Ga</value>
+  </data>
+  <data name="Ccbx_Sensor_MagGain.Items3" xml:space="preserve">
+    <value>±2.0Ga</value>
+  </data>
+  <data name="Ccbx_Sensor_MagGain.Items4" xml:space="preserve">
+    <value>±3.2Ga</value>
+  </data>
+  <data name="Ccbx_Sensor_MagGain.Items5" xml:space="preserve">
+    <value>±3.8Ga</value>
+  </data>
+  <data name="Ccbx_Sensor_MagGain.Items6" xml:space="preserve">
+    <value>±4.5Ga</value>
+  </data>
+  <data name="Ccbx_Sensor_MagGain.Items7" xml:space="preserve">
+    <value>±6.0Ga</value>
+  </data>
+  <data name="Ccbx_Sensor_MagGain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 166</value>
+  </data>
+  <data name="Ccbx_Sensor_MagGain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>206, 21</value>
+  </data>
+  <data name="Ccbx_Sensor_MagGain.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;Ccbx_Sensor_MagGain.Name" xml:space="preserve">
+    <value>Ccbx_Sensor_MagGain</value>
+  </data>
+  <data name="&gt;&gt;Ccbx_Sensor_MagGain.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Ccbx_Sensor_MagGain.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;Ccbx_Sensor_MagGain.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 150</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 13</value>
+  </data>
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>地磁気センサゲイン</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 103</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 13</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>測定時間</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 57</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 13</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>サンプリング周波数</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 12</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>18, 13</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="Ccbx_Sensor_SampFreq.Items" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Ccbx_Sensor_SampFreq.Items1" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="Ccbx_Sensor_SampFreq.Items2" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="Ccbx_Sensor_SampFreq.Items3" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="Ccbx_Sensor_SampFreq.Items4" xml:space="preserve">
+    <value>50</value>
+  </data>
+  <data name="Ccbx_Sensor_SampFreq.Items5" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="Ccbx_Sensor_SampFreq.Items6" xml:space="preserve">
+    <value>200</value>
+  </data>
+  <data name="Ccbx_Sensor_SampFreq.Items7" xml:space="preserve">
+    <value>500</value>
+  </data>
+  <data name="Ccbx_Sensor_SampFreq.Items8" xml:space="preserve">
+    <value>1000</value>
+  </data>
+  <data name="Ccbx_Sensor_SampFreq.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 74</value>
+  </data>
+  <data name="Ccbx_Sensor_SampFreq.Size" type="System.Drawing.Size, System.Drawing">
+    <value>206, 21</value>
+  </data>
+  <data name="Ccbx_Sensor_SampFreq.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Ccbx_Sensor_SampFreq.Name" xml:space="preserve">
+    <value>Ccbx_Sensor_SampFreq</value>
+  </data>
+  <data name="&gt;&gt;Ccbx_Sensor_SampFreq.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Ccbx_Sensor_SampFreq.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;Ccbx_Sensor_SampFreq.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="Ccbx_Sensor_WiFreq.Items" xml:space="preserve">
+    <value>ch11 (2405MHz)</value>
+  </data>
+  <data name="Ccbx_Sensor_WiFreq.Items1" xml:space="preserve">
+    <value>ch12 (2410MHz)</value>
+  </data>
+  <data name="Ccbx_Sensor_WiFreq.Items2" xml:space="preserve">
+    <value>ch13 (2415MHz)</value>
+  </data>
+  <data name="Ccbx_Sensor_WiFreq.Items3" xml:space="preserve">
+    <value>ch14 (2420MHz)</value>
+  </data>
+  <data name="Ccbx_Sensor_WiFreq.Items4" xml:space="preserve">
+    <value>ch15 (2425MHz)</value>
+  </data>
+  <data name="Ccbx_Sensor_WiFreq.Items5" xml:space="preserve">
+    <value>ch16 (2430MHz)</value>
+  </data>
+  <data name="Ccbx_Sensor_WiFreq.Items6" xml:space="preserve">
+    <value>ch17 (2435MHz)</value>
+  </data>
+  <data name="Ccbx_Sensor_WiFreq.Items7" xml:space="preserve">
+    <value>ch18 (2440MHz)</value>
+  </data>
+  <data name="Ccbx_Sensor_WiFreq.Items8" xml:space="preserve">
+    <value>ch19 (2445MHz)</value>
+  </data>
+  <data name="Ccbx_Sensor_WiFreq.Items9" xml:space="preserve">
+    <value>ch20 (2450MHz)</value>
+  </data>
+  <data name="Ccbx_Sensor_WiFreq.Items10" xml:space="preserve">
+    <value>ch21 (2455MHz)</value>
+  </data>
+  <data name="Ccbx_Sensor_WiFreq.Items11" xml:space="preserve">
+    <value>ch22 (2460MHz)</value>
+  </data>
+  <data name="Ccbx_Sensor_WiFreq.Items12" xml:space="preserve">
+    <value>ch23 (2465MHz)</value>
+  </data>
+  <data name="Ccbx_Sensor_WiFreq.Items13" xml:space="preserve">
+    <value>ch24 (2470MHz)</value>
+  </data>
+  <data name="Ccbx_Sensor_WiFreq.Items14" xml:space="preserve">
+    <value>ch25 (2475MHz)</value>
+  </data>
+  <data name="Ccbx_Sensor_WiFreq.Items15" xml:space="preserve">
+    <value>ch26 (2480MHz)</value>
+  </data>
+  <data name="Ccbx_Sensor_WiFreq.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 209</value>
+  </data>
+  <data name="Ccbx_Sensor_WiFreq.Size" type="System.Drawing.Size, System.Drawing">
+    <value>206, 21</value>
+  </data>
+  <data name="Ccbx_Sensor_WiFreq.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Ccbx_Sensor_WiFreq.Name" xml:space="preserve">
+    <value>Ccbx_Sensor_WiFreq</value>
+  </data>
+  <data name="&gt;&gt;Ccbx_Sensor_WiFreq.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Ccbx_Sensor_WiFreq.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;Ccbx_Sensor_WiFreq.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;Cbtn_Sensor_FileData.Name" xml:space="preserve">
+    <value>Cbtn_Sensor_FileData</value>
+  </data>
+  <data name="&gt;&gt;Cbtn_Sensor_FileData.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Cbtn_Sensor_FileData.Parent" xml:space="preserve">
+    <value>tabPage3</value>
+  </data>
+  <data name="&gt;&gt;Cbtn_Sensor_FileData.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Cbtn_Sensor_FileInfo.Name" xml:space="preserve">
+    <value>Cbtn_Sensor_FileInfo</value>
+  </data>
+  <data name="&gt;&gt;Cbtn_Sensor_FileInfo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Cbtn_Sensor_FileInfo.Parent" xml:space="preserve">
+    <value>tabPage3</value>
+  </data>
+  <data name="&gt;&gt;Cbtn_Sensor_FileInfo.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Clv_FileInfo.Name" xml:space="preserve">
+    <value>Clv_FileInfo</value>
+  </data>
+  <data name="&gt;&gt;Clv_FileInfo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Clv_FileInfo.Parent" xml:space="preserve">
+    <value>tabPage3</value>
+  </data>
+  <data name="&gt;&gt;Clv_FileInfo.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tabPage3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tabPage3.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabPage3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>291, 238</value>
+  </data>
+  <data name="tabPage3.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="tabPage3.Text" xml:space="preserve">
+    <value>ファイル</value>
+  </data>
+  <data name="&gt;&gt;tabPage3.Name" xml:space="preserve">
+    <value>tabPage3</value>
+  </data>
+  <data name="&gt;&gt;tabPage3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPage3.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;tabPage3.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Cbtn_Sensor_FileData.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="Cbtn_Sensor_FileData.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Cbtn_Sensor_FileData.Location" type="System.Drawing.Point, System.Drawing">
+    <value>210, 208</value>
+  </data>
+  <data name="Cbtn_Sensor_FileData.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="Cbtn_Sensor_FileData.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="Cbtn_Sensor_FileData.Text" xml:space="preserve">
+    <value>Download</value>
+  </data>
+  <data name="&gt;&gt;Cbtn_Sensor_FileData.Name" xml:space="preserve">
+    <value>Cbtn_Sensor_FileData</value>
+  </data>
+  <data name="&gt;&gt;Cbtn_Sensor_FileData.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Cbtn_Sensor_FileData.Parent" xml:space="preserve">
+    <value>tabPage3</value>
+  </data>
+  <data name="&gt;&gt;Cbtn_Sensor_FileData.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Cbtn_Sensor_FileInfo.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="Cbtn_Sensor_FileInfo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Cbtn_Sensor_FileInfo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 208</value>
+  </data>
+  <data name="Cbtn_Sensor_FileInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="Cbtn_Sensor_FileInfo.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="Cbtn_Sensor_FileInfo.Text" xml:space="preserve">
+    <value>Get FileList</value>
+  </data>
+  <data name="&gt;&gt;Cbtn_Sensor_FileInfo.Name" xml:space="preserve">
+    <value>Cbtn_Sensor_FileInfo</value>
+  </data>
+  <data name="&gt;&gt;Cbtn_Sensor_FileInfo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Cbtn_Sensor_FileInfo.Parent" xml:space="preserve">
+    <value>tabPage3</value>
+  </data>
+  <data name="&gt;&gt;Cbtn_Sensor_FileInfo.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Clv_FileInfo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="Clv_FileInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>288, 201</value>
+  </data>
+  <data name="Clv_FileInfo.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Clv_FileInfo.Name" xml:space="preserve">
+    <value>Clv_FileInfo</value>
+  </data>
+  <data name="&gt;&gt;Clv_FileInfo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Clv_FileInfo.Parent" xml:space="preserve">
+    <value>tabPage3</value>
+  </data>
+  <data name="&gt;&gt;Clv_FileInfo.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="columnHeader1.Text" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="columnHeader1.Width" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="columnHeader2.Text" xml:space="preserve">
+    <value>ファイル長</value>
+  </data>
+  <data name="columnHeader3.Text" xml:space="preserve">
+    <value>測定時刻</value>
+  </data>
+  <data name="columnHeader3.Width" type="System.Int32, mscorlib">
+    <value>100</value>
+  </data>
+  <data name="columnHeader4.Text" xml:space="preserve">
+    <value>測定周波数</value>
+  </data>
+  <data name="columnHeader4.Width" type="System.Int32, mscorlib">
+    <value>75</value>
+  </data>
+  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>308, 304</value>
+  </data>
+  <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="button1.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="button1.Text" xml:space="preserve">
+    <value>CamStart</value>
+  </data>
+  <data name="&gt;&gt;button1.Name" xml:space="preserve">
+    <value>button1</value>
+  </data>
+  <data name="&gt;&gt;button1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="button2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>389, 304</value>
+  </data>
+  <data name="button2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="button2.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="button2.Text" xml:space="preserve">
+    <value>CamStop</value>
+  </data>
+  <data name="&gt;&gt;button2.Name" xml:space="preserve">
+    <value>button2</value>
+  </data>
+  <data name="&gt;&gt;button2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="BtStartMeasurement.Location" type="System.Drawing.Point, System.Drawing">
+    <value>311, 84</value>
+  </data>
+  <data name="BtStartMeasurement.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 82</value>
+  </data>
+  <data name="BtStartMeasurement.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="BtStartMeasurement.Text" xml:space="preserve">
+    <value>計測開始</value>
+  </data>
+  <data name="&gt;&gt;BtStartMeasurement.Name" xml:space="preserve">
+    <value>BtStartMeasurement</value>
+  </data>
+  <data name="&gt;&gt;BtStartMeasurement.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtStartMeasurement.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BtStartMeasurement.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="BtStopMeasurement.Location" type="System.Drawing.Point, System.Drawing">
+    <value>434, 86</value>
+  </data>
+  <data name="BtStopMeasurement.Size" type="System.Drawing.Size, System.Drawing">
+    <value>109, 79</value>
+  </data>
+  <data name="BtStopMeasurement.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="BtStopMeasurement.Text" xml:space="preserve">
+    <value>計測停止</value>
+  </data>
+  <data name="&gt;&gt;BtStopMeasurement.Name" xml:space="preserve">
+    <value>BtStopMeasurement</value>
+  </data>
+  <data name="&gt;&gt;BtStopMeasurement.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtStopMeasurement.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BtStopMeasurement.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>50</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>555, 352</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Logical Product - 9軸ワイヤレスモーションセンサー（サンプル版）</value>
+  </data>
+  <data name="&gt;&gt;Cmenu_File.Name" xml:space="preserve">
+    <value>Cmenu_File</value>
+  </data>
+  <data name="&gt;&gt;Cmenu_File.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Cmenu_File_Exit.Name" xml:space="preserve">
+    <value>Cmenu_File_Exit</value>
+  </data>
+  <data name="&gt;&gt;Cmenu_File_Exit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Cmenu_COM.Name" xml:space="preserve">
+    <value>Cmenu_COM</value>
+  </data>
+  <data name="&gt;&gt;Cmenu_COM.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Cmenu_COM_reScan.Name" xml:space="preserve">
+    <value>Cmenu_COM_reScan</value>
+  </data>
+  <data name="&gt;&gt;Cmenu_COM_reScan.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Cstatus_lblConnect.Name" xml:space="preserve">
+    <value>Cstatus_lblConnect</value>
+  </data>
+  <data name="&gt;&gt;Cstatus_lblConnect.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Cstatus_lblCOM.Name" xml:space="preserve">
+    <value>Cstatus_lblCOM</value>
+  </data>
+  <data name="&gt;&gt;Cstatus_lblCOM.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Ctool_cbxCOM.Name" xml:space="preserve">
+    <value>Ctool_cbxCOM</value>
+  </data>
+  <data name="&gt;&gt;Ctool_cbxCOM.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Ctool_btnConnect.Name" xml:space="preserve">
+    <value>Ctool_btnConnect</value>
+  </data>
+  <data name="&gt;&gt;Ctool_btnConnect.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Ctool_btnDisConnect.Name" xml:space="preserve">
+    <value>Ctool_btnDisConnect</value>
+  </data>
+  <data name="&gt;&gt;Ctool_btnDisConnect.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator1.Name" xml:space="preserve">
+    <value>toolStripSeparator1</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Ctool_btnPreMeasure.Name" xml:space="preserve">
+    <value>Ctool_btnPreMeasure</value>
+  </data>
+  <data name="&gt;&gt;Ctool_btnPreMeasure.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Ctool_btnMeasure.Name" xml:space="preserve">
+    <value>Ctool_btnMeasure</value>
+  </data>
+  <data name="&gt;&gt;Ctool_btnMeasure.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Ctool_btnMeasureStop.Name" xml:space="preserve">
+    <value>Ctool_btnMeasureStop</value>
+  </data>
+  <data name="&gt;&gt;Ctool_btnMeasureStop.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Ctool_cbxMonitor.Name" xml:space="preserve">
+    <value>Ctool_cbxMonitor</value>
+  </data>
+  <data name="&gt;&gt;Ctool_cbxMonitor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator2.Name" xml:space="preserve">
+    <value>toolStripSeparator2</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Ctool_cbxFreq.Name" xml:space="preserve">
+    <value>Ctool_cbxFreq</value>
+  </data>
+  <data name="&gt;&gt;Ctool_cbxFreq.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SerialPort.Name" xml:space="preserve">
+    <value>SerialPort</value>
+  </data>
+  <data name="&gt;&gt;SerialPort.Type" xml:space="preserve">
+    <value>System.IO.Ports.SerialPort, System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;columnHeader1.Name" xml:space="preserve">
+    <value>columnHeader1</value>
+  </data>
+  <data name="&gt;&gt;columnHeader1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;columnHeader2.Name" xml:space="preserve">
+    <value>columnHeader2</value>
+  </data>
+  <data name="&gt;&gt;columnHeader2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;columnHeader3.Name" xml:space="preserve">
+    <value>columnHeader3</value>
+  </data>
+  <data name="&gt;&gt;columnHeader3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;columnHeader4.Name" xml:space="preserve">
+    <value>columnHeader4</value>
+  </data>
+  <data name="&gt;&gt;columnHeader4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MainFrm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
