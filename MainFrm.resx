@@ -144,7 +144,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Cmenu.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>8</value>
   </data>
   <data name="Cmenu_File.Size" type="System.Drawing.Size, System.Drawing">
     <value>56, 20</value>
@@ -195,7 +195,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Cstatus.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>7</value>
   </data>
   <data name="Cstatus_lblConnect.Size" type="System.Drawing.Size, System.Drawing">
     <value>16, 17</value>
@@ -209,30 +209,6 @@
   <metadata name="Ctool_Main.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>211, 17</value>
   </metadata>
-  <data name="Ctool_Main.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 24</value>
-  </data>
-  <data name="Ctool_Main.Size" type="System.Drawing.Size, System.Drawing">
-    <value>555, 25</value>
-  </data>
-  <data name="Ctool_Main.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="Ctool_Main.Text" xml:space="preserve">
-    <value>toolStrip1</value>
-  </data>
-  <data name="&gt;&gt;Ctool_Main.Name" xml:space="preserve">
-    <value>Ctool_Main</value>
-  </data>
-  <data name="&gt;&gt;Ctool_Main.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStrip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Ctool_Main.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;Ctool_Main.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
   <data name="Ctool_cbxCOM.Size" type="System.Drawing.Size, System.Drawing">
     <value>121, 25</value>
   </data>
@@ -338,18 +314,18 @@
     <value>
         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
-        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
+        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
         AAAASUVORK5CYII=
 </value>
   </data>
@@ -370,17 +346,17 @@
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
         YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALLSURBVDhPY6AKMCk79j96+t0QKJd0ADLArvZomv+ku8uh
         QmDwLiKq631Y2IP34ZGX34VFxkGFMYFJ6dH/5u0Pje079/+16H3ECRL74Ot3+KmPz69P/kGn3vgF370f
-        GPz7Q2Dwow9BQUpgTcjApOTIf4ZV/5l1sh781K9/sO2rnUP7Zgfnf59cXGygShg+OHsrfbT3/vjOze2b
-        9+T7DVBhCDAuPvxf2a1ZVrrsYVe6z/pf7/X1v38zs5gKlQYDo7oHveaN+//KN93/bdN2/6dd/bx/UCmg
-        ZPGh/1Amwyoty38PDe1/QrlgIJf7YIV8/L3fasV35/8wMFf9Zmz2f2l0x3SoNNCAogNgA36JSi29Lynz
-        W99v/XeuxPuTGEL/Mwsk3d8hGH3vh0jinTqwYiD4oaV74JuW1gcol4HBoHDf/xqDQP09vIL/fvMKtjFE
-        PGhhCH/wn8l+/1/m8Pn/WEPuhUOVwsFTSclfUCbQgPy9//8xsPn/ZmK+AxWCAP875V6LHKZ7L7I501Wl
+        GPz7Q2Dwow9BQUpgTcjApOTIf4ZV/5l1sh781K9/sO2rnUP7Jgfnf59cXGygShg+OHsrfbT3/vjOze2b
+        9+T7DVBhCDAuPvxf2a1ZVrrsYVe6z/pf7/X1v38zs5gKlQYDo7oHveaN+//KN93/bdN2/6dd/dx/UCmg
+        ZPGh/1Amw0oty38PDe1/QrlgIJf7YIV8/L3fasV35/8wMFf9Zmz2f2l0x3SoNNCAogNgA36JSi29Lynz
+        W99v/XeuxPuTGEL/Mwsk3d8hGH3vh0jinTqwYiD4oaV74JuW1gcol4HBoHDf/xqDQP3dvIL/fvMKtjFE
+        PGhhCH/wn8l+/1/m8Hn/WEPuhUOVwsFTSclfUCbQgPy9//8xsPn/ZmK+AxWCAP875V6LHKZ7L7I501Wl
         /XRHoMDreieWfzsdmR9dM+S9ClXFwKCft/v/DwbmEGCoiEOFGDymW3l5TLV84TrD9EFvqebl/fYWf79v
         7f3/79qO/19XFP0/na31Z7czSy5YsV7uzv+zhdUdwBwgcGgznGbfofvRoUt/kf0ULZ7tLsx3vwE1/5/k
         +/9/ueD//22K/193Ofzf6sh8D6xBN3v7f9sCDUmLEu2Z5qW6jwxLtd9alOpkgCWBAOTsf2fX/UcG7+sl
         /oPEwQp0s7b9N0jX9NfP1HDTCDR3tSiUAadGQW03WRC904X58Ze5yf//AzX9KGP4/w6IH2Yw/9/hyvwE
         JM+gnbnlv3bG5v9aGZuAeON/rbQNQLz+vyYIp677XxaX8v9Yivr/Z+WK/19Vsv6/m8L4f7cv2//tLkxV
-        YAOIAYfDZSt2OjPfB8cC0EUQzQwMALsbQ6wLNJInAAAAAElFTkSuQmCC
+        YAOIAYfDZSt2OjPfB8cC0EUQzQwMAK8/Q6d2Ov5GAAAAAElFTkSuQmCC
 </value>
   </data>
   <data name="Ctool_btnMeasureStop.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
@@ -433,6 +409,30 @@
   </data>
   <data name="Ctool_cbxFreq.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 25</value>
+  </data>
+  <data name="Ctool_Main.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 24</value>
+  </data>
+  <data name="Ctool_Main.Size" type="System.Drawing.Size, System.Drawing">
+    <value>555, 25</value>
+  </data>
+  <data name="Ctool_Main.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="Ctool_Main.Text" xml:space="preserve">
+    <value>toolStrip1</value>
+  </data>
+  <data name="&gt;&gt;Ctool_Main.Name" xml:space="preserve">
+    <value>Ctool_Main</value>
+  </data>
+  <data name="&gt;&gt;Ctool_Main.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStrip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Ctool_Main.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Ctool_Main.ZOrder" xml:space="preserve">
+    <value>6</value>
   </data>
   <metadata name="SerialPort.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>313, 17</value>
@@ -492,7 +492,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;tabControl1.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
   </data>
   <data name="&gt;&gt;Cbtn_Sensor_GetStatus.Name" xml:space="preserve">
     <value>Cbtn_Sensor_GetStatus</value>
@@ -1651,7 +1651,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <data name="button2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -1678,7 +1678,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;button2.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="BtStartMeasurement.Location" type="System.Drawing.Point, System.Drawing">
     <value>311, 84</value>
@@ -1702,7 +1702,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;BtStartMeasurement.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="BtStopMeasurement.Location" type="System.Drawing.Point, System.Drawing">
     <value>434, 86</value>
@@ -1726,6 +1726,33 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;BtStopMeasurement.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="TxState.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="TxState.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 36pt</value>
+  </data>
+  <data name="TxState.Location" type="System.Drawing.Point, System.Drawing">
+    <value>347, 204</value>
+  </data>
+  <data name="TxState.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 55</value>
+  </data>
+  <data name="TxState.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;TxState.Name" xml:space="preserve">
+    <value>TxState</value>
+  </data>
+  <data name="&gt;&gt;TxState.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TxState.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;TxState.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">

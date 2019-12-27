@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
-using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -40,6 +39,8 @@ namespace LP.MT
 
         int count = 0;
 
+        //計測データ出力用
+        string outputData= null;
 
         //
         public MainFrm()
@@ -100,6 +101,7 @@ namespace LP.MT
         private delegate void UpdateFormDelegate(PacketParser receivedPacket);
         private void serialPort_DataReceived(object sender, System.IO.Ports.SerialDataReceivedEventArgs e)
         {
+            Console.WriteLine("SerialPort data received");
             // シリアルポートに到達したバイト列を取得
             int _i_BytesToRead = this.SerialPort.BytesToRead; // シリアルポートに到達したバイト数
             if (_i_BytesToRead == 0) { return; }
@@ -239,30 +241,52 @@ namespace LP.MT
         {
             for (int i = 0; i < receivedPacket.packetList.Count; i++)
             {
+                //応答コードによって動作
                 switch (receivedPacket.packetList[i][5])
                 {
+                    case 0x09:
+                        //追加
+                        //計測開始
+                        ReceivedPreMesurementAck(receivedPacket.packetList[i]);
+                        break;
+
                     case 0x83:
                         // 計測データに関する処理をここへ
+                        //計測開始後のデータパケット
+                        ReceivedMesurementStartPacket(receivedPacket.packetList[i]);
                         break;
+                    case 0x82:
+                        ReceivedMeasurementStartAck();
+                        break;
+
+
+
                     case 0x84:
+                        //計測停止（ACKパケットのみ）
                         ReceivedMesurementStopPacket();
                         break;
                     case 0x85:
+                        //各センサモジュールに設定されている情報及び状態を取得（ACKパケット）
                         ReceivedStatusAck(receivedPacket.packetList[i]);
                         break;
                     case 0x86:
+                        //各センサモジュールに設定されている情報及び状態を取得（データパケット）
                         ReceivedStatusPacket(receivedPacket.packetList[i]);
                         break;
                     case 0x87:
+                        //ワイヤレスセンサモジュールに搭載されたメモリに記録されているファイル情報を取得　（ACKパケット）
                         ReceivedFileInfoAck(receivedPacket.packetList[i]);
                         break;
                     case 0x88:
+                        //ワイヤレスセンサモジュールに搭載されたメモリに記録されているファイル情報を取得　（データパケット）
                         ReceivedFileInfoPacket(receivedPacket.packetList[i]);
                         break;
                     case 0x89:
+                        //メモリ内のファイルダウンロード　および最新ファイルデータ取得（ACKパケット）
                         ReceivedFileDataAck(receivedPacket.packetList[i]);
                         break;
                     case 0x8A:
+                        //メモリ内のファイルダウンロード　および最新ファイルデータ取得（データパケット）
                         ReceivedFileDataPacket(receivedPacket.packetList[i]);
                         break;
                 }
@@ -274,8 +298,63 @@ namespace LP.MT
         /// <summary>
         /// 
         /// </summary>
+        ///
+        private void ReceivedPreMesurementAck(byte[] receriveData)
+        {
+            Console.WriteLine("ACK Status: " + receriveData[6].ToString("X2"));
+            TxState.Text = "準備完了";
+        }
+        private void ReceivedMesurementStartPacket(byte[] receriveData)
+        {
+            //自己開発
+            //リアルタイムで表示する必要はないのでここでは表示しない
+            //計測中であることだけ提示
+            TxState.Text = "計測中";
+
+            //計測データのcsv作成
+            outputData = "magX , magY , magZ , accX , accY , accZ , angX , angY , angZ \r\n";
+            //受信データパケット
+            //1つのデータパケットに5回分の計測データ、1回の計測データ当たり18バイト（9チャンネル）
+            for (int counter = 0; counter < 73; counter+= 18)
+            {
+                string magX = receriveData[9 + counter].ToString() + receriveData[10 + counter].ToString();     //地磁気X
+                string magY = receriveData[11 + counter].ToString() + receriveData[12 + counter].ToString();    //地磁気Y
+                string magZ = receriveData[13 + counter].ToString() + receriveData[14] + counter.ToString();    //地磁気Z
+
+                string accY = receriveData[15 + counter].ToString() + receriveData[16 + counter].ToString();    //加速度Y　ここだけ順序違うので注意 3G/300dpsのみの仕様らしい
+                string accX = receriveData[17 + counter].ToString() + receriveData[18 + counter].ToString();    //加速度X
+                string accZ = receriveData[19 + counter].ToString() + receriveData[20 + counter].ToString();    //加速度Z
+
+                string angX = receriveData[21 + counter].ToString() + receriveData[22 + counter].ToString();    //加速度Y　ここだけ順序違うので注意 3G/300dpsのみの仕様らしい
+                string angY = receriveData[23 + counter].ToString() + receriveData[24 + counter].ToString();    //加速度X
+                string angZ = receriveData[25 + counter].ToString() + receriveData[26 + counter].ToString();    //加速度Z
+
+                outputData += magX + "," + magY + "," + magZ + "," + accX + "," + accY + "," + accZ + "," + angX + "," + angY + "," + angZ + "\r\n";
+                Console.WriteLine("data mag:" + magX + " " + magY + " " + magZ);
+                Console.WriteLine("data acc:" + accX + " " + accY + " " + accZ);
+                Console.WriteLine("data ang:" + angX + " " + angY + " " + angZ);
+            }
+
+        }
+
+        private void ReceivedMeasurementStartAck()
+        {
+            Console.WriteLine("Start ACK.");
+        }
+
         private void ReceivedMesurementStopPacket()
         {
+            //自己開発
+            //計測を停止したことだけ提示
+            TxState.Text = "計測停止";
+
+            if(outputData != null)
+            {
+                File.WriteAllText("output.csv", outputData);
+                Console.WriteLine("output measurement file.");
+                outputData = null;
+            }
+
         }
 
         private void ReceivedStatusPacket(byte[] receivedData)
@@ -485,8 +564,11 @@ namespace LP.MT
             Console.WriteLine("MeasureStart = " + _str_TimeOfStartMeas);
 
             // 計測開始ボタン
-            if (SendMesurementCmd(Convert.ToInt32(this.Cnud_dstID.Value), Convert.ToInt32(this.Ctool_cbxMonitor.SelectedIndex)))
+            // 記録ありMode
+            if (SendMesurementCmd(Convert.ToInt32(this.Cnud_dstID.Value), 1))
+            //if (SendMesurementCmd(Convert.ToInt32(this.Cnud_dstID.Value), Convert.ToInt32(this.Ctool_cbxMonitor.SelectedIndex)))
             {
+                Console.WriteLine("MeasureStart CMD sent.");
             }
             else
             {
@@ -505,6 +587,7 @@ namespace LP.MT
         {
             // 停止ボタンを送信
             SendMesurementStopCmd(Convert.ToInt32(this.Cnud_dstID.Value));
+            Console.WriteLine("Measurement Stop.");
         }
 
         private void Cbtn_SetDev_ID_Click(object sender, EventArgs e)
@@ -576,7 +659,11 @@ namespace LP.MT
             {
                 byte[] _b_startMeasure = cmd.cmdStartMeasurement(id, mode);
                 this.SerialPort.Write(_b_startMeasure, 0, _b_startMeasure.Length);
-                cmd.State = "Measurement";
+
+                // 停止ボタンを有効化
+                Ctool_btnPreMeasure.Enabled = false;
+                Ctool_btnMeasure.Enabled = false;
+                Ctool_btnMeasureStop.Enabled = true;
 
                 result = true;
             }
@@ -596,6 +683,11 @@ namespace LP.MT
                 byte[] _b_stopMeasure = cmd.cmdStopMeasurement(id);
                 this.SerialPort.Write(_b_stopMeasure, 0, _b_stopMeasure.Length);
                 cmd.State = "Measurement";
+
+                // 計測準備ボタンを有効化
+                Ctool_btnPreMeasure.Enabled = true;
+                Ctool_btnMeasure.Enabled = false;
+                Ctool_btnMeasureStop.Enabled = false;
             }
             else
             { MessageBox.Show("シリアルポートが閉じています。"); }
@@ -843,9 +935,10 @@ namespace LP.MT
                 // Status読出コマンドを送信
                 if (this.SerialPort.IsOpen)
                 {
-                    byte[] _b_prepMeasurement = cmd.cmdPrepMeasurement(0x0e, 0x03, "test", 0x00, "");
+                    byte[] _b_prepMeasurement = cmd.cmdPrepMeasurement(0x0e, Convert.ToInt32(this.Cnud_dstID.Value), "test", 0x01, "");
                     this.SerialPort.Write(_b_prepMeasurement, 0, _b_prepMeasurement.Length);
                     cmd.State = "PrepMeasurement";
+                    TxState.Text = "準備中";
                 }
                 else
                 { MessageBox.Show("シリアルポートが閉じています。"); }

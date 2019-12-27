@@ -86,6 +86,7 @@
             this.button2 = new System.Windows.Forms.Button();
             this.BtStartMeasurement = new System.Windows.Forms.Button();
             this.BtStopMeasurement = new System.Windows.Forms.Button();
+            this.TxState = new System.Windows.Forms.Label();
             this.Cmenu.SuspendLayout();
             this.Cstatus.SuspendLayout();
             this.Ctool_Main.SuspendLayout();
@@ -589,10 +590,17 @@
             this.BtStopMeasurement.UseVisualStyleBackColor = true;
             this.BtStopMeasurement.Click += new System.EventHandler(this.BtStopMeasurement_Click);
             // 
+            // TxState
+            // 
+            resources.ApplyResources(this.TxState, "TxState");
+            this.TxState.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.TxState.Name = "TxState";
+            // 
             // MainFrm
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.TxState);
             this.Controls.Add(this.BtStopMeasurement);
             this.Controls.Add(this.BtStartMeasurement);
             this.Controls.Add(this.button2);
@@ -684,6 +692,7 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button BtStartMeasurement;
         private System.Windows.Forms.Button BtStopMeasurement;
+        private System.Windows.Forms.Label TxState;
     }
 }
 

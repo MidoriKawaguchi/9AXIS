@@ -8,7 +8,7 @@ namespace LP.MT.Core
     class Command
     {
         // 定型バイト
-        byte[] BytesStopMeasurement = new byte[] { 0x55, 0x55, 0x05, 0x0e, 0x01, 0x04, 0x04, 0xAA };
+        byte[] BytesStopMeasurement = new byte[] { 0x55, 0x55, 0x05, 0x0e, 0x03, 0x04, 0x04, 0xAA };
 
         public Command()
         {
@@ -35,7 +35,7 @@ namespace LP.MT.Core
         //ここから自己開発
         public byte[] cmdPrepMeasurement(int pid, int smid, string filename, int mode, string fileCommnet)
         {
-            byte[] BytesPrepMeasurement = new byte[89];
+            byte[] BytesPrepMeasurement = new byte[101];
 
             // Danger: Big Endian
             byte[] BytesFilename = Encoding.ASCII.GetBytes(filename.Reverse().ToArray());
@@ -62,6 +62,9 @@ namespace LP.MT.Core
             Buffer.BlockCopy(new byte[] { 0x55, 0x55 }, 0, BytesPrepMeasurement, 0, 2);
             BytesPrepMeasurement[2] = 0x62;
             BytesPrepMeasurement[5] = 0x1F;
+
+            BytesPrepMeasurement[99] = CalcParity(BytesPrepMeasurement);
+            BytesPrepMeasurement[100] = 0xAA;
 
             return BytesPrepMeasurement;
         }
@@ -130,6 +133,8 @@ namespace LP.MT.Core
         {
             byte[] ret = BytesStopMeasurement;
             ret[4] = BitConverter.GetBytes(id)[0];
+
+            ret[6] = CalcParity(ret);
 
             return ret;
         }
